@@ -19,12 +19,23 @@ span {
     margin-left: 100px;
 }
 
+#stage {
+    width: 100vh;
+    margin: 0;
+    height: 20px;
+    font-size: 50px;;
+}
+
 button {
-    margin-top: 100px;
-    padding: 10px 50px;
+    margin: 100px;
+    padding: 10px 25px;
     color: rgb(234, 239, 244);
     background: #e98a1d;
     font-size: 20px;
-    border-radius: 10px ;
-    font-family: 'Permanent Marker', cursive;;
+    border-radius: 10px;
+    font-family: inherit;
+}
+
+button:hover {
+
 }
