@@ -34,8 +34,11 @@ button {
     font-size: 20px;
     border-radius: 10px;
     font-family: inherit;
+    border: none;
 }
 
 button:hover {
-
+    background: white;
+    border: 2px solid #e98a1d;
+    color: #e98a1d
 }
