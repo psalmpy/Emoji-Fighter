@@ -1,13 +1,12 @@
 let fighters = ["🐉", "🐥", "🐊","💩", "🦍", "🐢", "🐩", "🦭", "🦀", "🐝", "🤖", "🐘", "🐸", "🕷","🐆", "🦕", "🦁"]
 
 let stageEl = document.getElementById("stage")
-let fightEl = document.getElementById("fight")
+let fightButton = document.getElementById("fightButton")
 
-fightButton.addEventListener("click", function () {
-    let fighterIndexOne = Math.floor(Math.random() * fighters.length)
-    let fighterIndexTwo = Math.floor(Math.random() * fighters.length)
-
-    let fighterOne = fighters[fighterIndexOne]
-    let fighterTwo = fighters[fighterIndexOne]
-})
-})
+function fightNow() {
+    
+    let randomIndexOne = Math.floor( Math.random() * fighters.length )
+    let randomIndexTwo = Math.floor( Math.random() * fighters.length )
+    
+    stageEl.textContent = fighters[randomIndexOne] + " vs " + fighters[randomIndexTwo]
+}
